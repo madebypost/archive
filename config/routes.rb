@@ -1,13 +1,17 @@
 Rails.application.routes.draw do
 
-  resources :posts
-
+  devise_for :users
   root 'pages#home'
   get 'people' => 'pages#people'
   get 'team' => 'pages#team'
   get 'workplaces' => 'pages#workplaces'
 
   resources :projects
+
+
+  resources :posts
+  get 'present' => 'posts#index'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
