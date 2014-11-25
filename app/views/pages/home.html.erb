@@ -5,6 +5,8 @@
 
 
 
+<% if user_signed_in? %>
+
 	<% if current_user.try(:admin?) %>
 
 		<h1>You are Admin</h1>
@@ -14,3 +16,11 @@
 		<h1>You are User</h1>
 
 	<% end %>
+
+<% elsif %>
+
+
+	Get an account
+
+
+<% end %>
