@@ -4,7 +4,7 @@ Starting from scratch with the 100Archive only with Rails instead.
 
 * Should be fun *
 
-¯\\_(ツ)_/¯
+¯\\__(ツ)__/¯
 
 
 [Heroku Site](https://harchive.herokuapp.com/)

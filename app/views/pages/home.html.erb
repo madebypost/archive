@@ -1,2 +1,14 @@
 <h1>Pages#home</h1>
 <p>Find me in app/views/pages/home.html.erb</p>
+
+
+
+	<% if current_user.try(:admin?) %>
+
+		<h1>You are Admin</h1>
+
+	<% elsif %>
+
+		<h1>You are User</h1>
+
+	<% end %>
