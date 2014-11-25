@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :posts
+
   root 'pages#home'
   get 'people' => 'pages#people'
   get 'team' => 'pages#team'
